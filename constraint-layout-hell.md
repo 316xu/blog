@@ -29,17 +29,17 @@ description: 一篇关于 ConstraintLayout 的入门文章
 
 创建新工程
 
-![Create a new project.](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-9.39.45-AM-300x152.png)
+![Create a new project.](http://image.xujifa.cn/constraint-layout-hell/c45R2hXmPHednAjSzWdNQtaEYwpzbZXk)
 
-![New proejct](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-9.44.51-AM-300x180.png)
+![New proejct](http://image.xujifa.cn/constraint-layout-hell/5CCcxDfPnHEmKG4FesRrnbzKF4Yhha36)
 
-![screen-shot-2017-01-07-at-9-45-10-am](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-9.45.10-AM-300x188.png)
+![screen-shot-2017-01-07-at-9-45-10-am](http://image.xujifa.cn/constraint-layout-hell/Htj2pbYnjwcJz4GcXM8GsK8FWrWA88TW)
 
-![screen-shot-2017-01-07-at-9-45-29-am](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-9.45.29-AM-300x173.png)
+![screen-shot-2017-01-07-at-9-45-29-am](http://image.xujifa.cn/constraint-layout-hell/wm6AnyS2sS6K45MbBsJtXWKrxEhP7bnj)
 
 现在，我们的工程已经准备好了。因为我选了 No Activity，所以在工程里没有 Java 和 XML 布局文件。如下所示。
 
-![screen-shot-2017-01-07-at-9-53-17-am](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-9.53.17-AM-300x267.png)
+![screen-shot-2017-01-07-at-9-53-17-am](http://image.xujifa.cn/constraint-layout-hell/7WbHcdwD7eGJeAhRdnXQHpB8c8QnpHmy)
 
 我们将主要围绕布局文件来构建这篇文章。
 
@@ -47,7 +47,7 @@ description: 一篇关于 ConstraintLayout 的入门文章
 
 现在我会创建第一个 RelativeLayout，之后我们将把它转化成 ConstraintLayout。
 
-![screen-shot-2017-01-07-at-10-11-05-am](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-10.11.05-AM-1024x437.png)
+![screen-shot-2017-01-07-at-10-11-05-am](http://image.xujifa.cn/constraint-layout-hell/Sez6QyzxnreGi8wkykXPficd7HK2xjrR)
 
 从上图我们可以看到这是一个 Android 最常见的列表设计样式。我会在下面向你展示我是如何通过 XML 实现的。现在只简单的关注图片上一眼就可以看到的箭头。从这些箭头可以看出来我们是怎样用 RelativeLayout 的标签来实现位置关系的。
 
@@ -136,11 +136,11 @@ description: 一篇关于 ConstraintLayout 的入门文章
 
 如下图示，现在我们的 UI 已经是 ConstraintLayout 了。
 
-![screen-shot-2017-01-07-at-10-49-16-am](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-10.49.16-AM-1024x568.png)
+![screen-shot-2017-01-07-at-10-49-16-am](http://image.xujifa.cn/constraint-layout-hell/Wer2CDwzR7K5pTkRydsZCAwAyAt2tbAQ)
 
 这和 RelativeLayout 的效果是百分百相同的。你可能要问了。为什么我没有在这张图里显示箭头。那是因为我不想搅乱你的思绪。我马上就会向你展示带箭头的图像，但是你得保证不只关注下面这张图，开始阅读和享受吧。
 
-![screen-shot-2017-01-07-at-10-49-47-am](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-10.49.47-AM-1024x632.png)
+![screen-shot-2017-01-07-at-10-49-47-am](http://image.xujifa.cn/constraint-layout-hell/fncyi6WAbPPSRW877XNmiF6isPxJSdj7)
 
 哈哈，再说一件事。当我学习到这个阶段时，我不依赖可视化编辑器创建了这个 UI，但是当我打开可视化编辑器了，我对自己做到的事感到惊讶。所以在学习了 XML 之后，我可以在几分钟之内通过可视化编辑器完成同样的事了。现在是时候从 XML 开始学习了。重要的标签已经被**加粗**显示。
 
@@ -280,7 +280,7 @@ description: 一篇关于 ConstraintLayout 的入门文章
 
 现在我想向你展示完成时的可视化编辑器显示的样子。
 
-![screen-shot-2017-01-07-at-11-24-22-am](http://www.uwanttolearn.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-07-at-11.24.22-AM-1024x798.png)
+![screen-shot-2017-01-07-at-11-24-22-am](http://image.xujifa.cn/constraint-layout-hell/bE7jfJeDwAPi2YW6y8rr5ZTRbYXKeisA)
 
 现在你可以暂停一下了。尝试去实现同样的例子。当你完成适应了这个布局就可以尝试我下面提到的这些标签了。
 

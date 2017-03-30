@@ -8,7 +8,7 @@ tags:
 - Work
 ---
 
-![](https://raw.githubusercontent.com/jifaxu/image/master/blog/pomodoro.jpeg)
+![](http://image.xujifa.cn/tomato/Wa8TQp5BW8f38dsmYEjNZhyCk8Sj5MMS)
 
 这是一篇写给和我一样刚开始接触番茄工作法的朋友们看的文章，因为自己使用番茄工作法的时间也并不长，但是使用这种方法确实对我的工作效率有了不小的提升，现在将我学习使用它的过程中遇到的一些问题和收获分享给大家。
 
