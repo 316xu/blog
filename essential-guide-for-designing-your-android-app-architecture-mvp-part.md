@@ -18,7 +18,7 @@ tags:
 
 
 
-![](http://image.xujifa.cn/essential-guide-for-designing-your-android-app-architecture-mvp-part/XFwMKppEQJSBfRF5ffnmezG7jtxJAeDa)
+![](https://image.xujifa.cn/essential-guide-for-designing-your-android-app-architecture-mvp-part/XFwMKppEQJSBfRF5ffnmezG7jtxJAeDa)
 
 > 扎实的基础是成功的保证。
 
@@ -91,7 +91,7 @@ MVP 在单 Activity 的例子中看起来很简单。但是当我们尝试将一
 
 ### 让我们先绘制简单的架构蓝图。###
 
-![](http://image.xujifa.cn/essential-guide-for-designing-your-android-app-architecture-mvp-part/mzc4rSkh3j8e7RFGpTmiitD2SwpZj4b6)
+![](https://image.xujifa.cn/essential-guide-for-designing-your-android-app-architecture-mvp-part/mzc4rSkh3j8e7RFGpTmiitD2SwpZj4b6)
 
 当你开发软件时，首先考虑的就是架构。一个精心设计的架构会减少很多重复的工作并且提供很好的扩展性。现在的大多数的工程都是有一个团队来开发的，所以可读性和模块化是一个架构最重要的部分。我们重度依赖第三方库并且在由于用例，bug和支持问题频繁地更换第三方库。所以我们的架构应该是即插即用的。类的接口可以实现这样的目的。
 

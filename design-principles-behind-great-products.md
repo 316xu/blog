@@ -15,7 +15,7 @@ tags:
 > * 校对者：[llp0547](https://github.com/llp0574), [skyar2009](https://github.com/skyar2009)
 
 
-![progressiveMedia-noscript js-progressiveMedia-inner](http://image.xujifa.cn/design-principles-behind-great-products/CtTDaTHbWBCrhkDp5e4b8MHWmrbcGXcT)
+![progressiveMedia-noscript js-progressiveMedia-inner](https://image.xujifa.cn/design-principles-behind-great-products/CtTDaTHbWBCrhkDp5e4b8MHWmrbcGXcT)
 
 最近，我需要为我正在做的产品提一些高级原则。我在寻找一些简单而有效的原则，可以用它们来引导设计决策，并解决讨论时的一些分歧。第一步，我决定看看周围的人是怎么做的。经过一段时间的整理，我写了这篇文章，希望能对那些面临这同样问题的朋友有所帮助。
 
@@ -30,14 +30,14 @@ tags:
 
 下个大部分是合理设计过程的一些原则。掌握这些概念集合可以使你成为一个真正专业的设计师，以极高的效率产出一份优秀的设计。将这些原则用于整个团队，确立了新员工在短期内应达到的标准。让我们看一下 [GOV.UK Design Principles](https://www.gov.uk/design-principles)。
 
-![progressiveMedia-noscript js-progressiveMedia-inner](http://image.xujifa.cn/design-principles-behind-great-products/3TyN2RyddeECy34Jbb5XtFPrQQTdEX6E)
+![progressiveMedia-noscript js-progressiveMedia-inner](https://image.xujifa.cn/design-principles-behind-great-products/3TyN2RyddeECy34Jbb5XtFPrQQTdEX6E)
 
 这个列表似乎是合理的，但我认为这样的事情现在是一个基础标准。每个设计师都在和数据打交道，并且试图理解上下文。我相信，如果你为你的团队选择设计原则，应该挑选那些具有开创性，而且可以挑战团队的原则，这样才能进步。
 
 
 一些团队把他们的原则放在网上，我经常看到一些像“用户友好”这样的原则。我坚信，这样的狗屎是不值得放上来的，除非你的团队里都是一些不懂人际关系的怪人，而你想改变这一事实。既然这样那你为什么要雇用他们？
 
-![progressiveMedia-noscript js-progressiveMedia-inner](http://image.xujifa.cn/design-principles-behind-great-products/fkH7dpnAy4nZpK7J6PAKm6rKDH6eZb53)
+![progressiveMedia-noscript js-progressiveMedia-inner](https://image.xujifa.cn/design-principles-behind-great-products/fkH7dpnAy4nZpK7J6PAKm6rKDH6eZb53)
 
 所以，我正在寻找的是**产品设计原则**。而 Gov.UK 至少提供了一个：
 
@@ -84,7 +84,7 @@ tags:
 
 ### 让我们开始吧：###
 
-![progressiveMedia-noscript js-progressiveMedia-inner](http://image.xujifa.cn/design-principles-behind-great-products/tD8R3Q3Tc6Wf3wc3Jw4fF28GSbitF5kk)
+![progressiveMedia-noscript js-progressiveMedia-inner](https://image.xujifa.cn/design-principles-behind-great-products/tD8R3Q3Tc6Wf3wc3Jw4fF28GSbitF5kk)
 
 ### [Airbnb](http://airbnb.design/building-a-visual-language/) ###
 
@@ -117,7 +117,7 @@ Airbnb 在世界各地被广泛使用。我们的产品和视觉语言应该是�
 就像生活中的大部分事情一样，你会从 Airbnb 中获得回报。对于 Airbnb 的信任是双向的。我们发现客人越信任房东，房东就越愿意信任用户。
 
 
-![progressiveMedia-noscript js-progressiveMedia-inner](http://image.xujifa.cn/design-principles-behind-great-products/Bw77p8a8c3YyrhAR86BXDz4ZdeSGXSkW)
+![progressiveMedia-noscript js-progressiveMedia-inner](https://image.xujifa.cn/design-principles-behind-great-products/Bw77p8a8c3YyrhAR86BXDz4ZdeSGXSkW)
 
 ### [Facebook](https://www.facebook.com/notes/facebook-design/facebook-design-principles/118951047792/) ###
 
@@ -150,7 +150,7 @@ Airbnb 在世界各地被广泛使用。我们的产品和视觉语言应该是�
 用户信任我们，他们的身份、照片、想法、谈话记录都给了我们。我们以最大的诚实和透明度回报他们。我们很清楚发生了什么及其发生的原因。
 
 
-![progressiveMedia-noscript js-progressiveMedia-inner](http://image.xujifa.cn/design-principles-behind-great-products/e2FM3FEC38xFK3bEH85YcEcT8iMb2KKa)
+![progressiveMedia-noscript js-progressiveMedia-inner](https://image.xujifa.cn/design-principles-behind-great-products/e2FM3FEC38xFK3bEH85YcEcT8iMb2KKa)
 
 ### [Apple](https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/)  ###
 
@@ -178,7 +178,7 @@ Airbnb 在世界各地被广泛使用。我们的产品和视觉语言应该是�
 
 在 iOS 中，是用户在控制而非应用程序。应用程序可以建议一个行动方案或警告危险后果，通常由不应该完全让应用程序去进行决策。最好的应用程序在给用户的选择权和避免不必要的结果之间能找到正确的平衡。一个应用程序可以通过保持交互式元素的熟悉性和可预测性，让用户确认破坏性的操作，同时让它易于取消（即使这些操作已经在运行了）来让用户感觉一切都在控制之中，。
 
-![progressiveMedia-noscript js-progressiveMedia-inner](http://image.xujifa.cn/design-principles-behind-great-products/jhp6tRA7FTFZJzJmz8wydfSPT2yrWnnC)
+![progressiveMedia-noscript js-progressiveMedia-inner](https://image.xujifa.cn/design-principles-behind-great-products/jhp6tRA7FTFZJzJmz8wydfSPT2yrWnnC)
 
 ### [Google Material Design](https://material.io/guidelines/#introduction-principles)  ###
 
@@ -203,7 +203,7 @@ Airbnb 在世界各地被广泛使用。我们的产品和视觉语言应该是�
 
 动效是有意义的，有助于集中注意力和保持连续性。在尚未清晰展现的时候有微妙的反馈，连贯动画也是高效的。
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/WdzetnDFD2Ftj6XRTE5FphNCpHBdKBjJ)
+![](https://image.xujifa.cn/design-principles-behind-great-products/WdzetnDFD2Ftj6XRTE5FphNCpHBdKBjJ)
 
 ### [Microsoft](https://www.google.ru/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwiH4qL2h_7RAhXEF5oKHTUODrAQFggcMAA&amp;url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdesign%2Fprinciples&amp;usg=AFQjCNH_3g0Ib4u3izhV6NVodNohr9nA4g&amp;sig2=YOGn3O0svJx5bcsXbhql4w&amp;cad=rja) ###
 
@@ -223,7 +223,7 @@ Airbnb 在世界各地被广泛使用。我们的产品和视觉语言应该是�
 
 我们最后的原则是关于系统的活力。这是关于如何让用户感觉到产品是由人创造的。这会给用户带来惊喜的体验。
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/4DfeSGJnk5ez7nByHTyZmtEp3MCCntKh)
+![](https://image.xujifa.cn/design-principles-behind-great-products/4DfeSGJnk5ez7nByHTyZmtEp3MCCntKh)
 
 ### [Medium](https://medium.com/@dustin/thanks-for-writing-the-article-julie-8362fd235ae0#.h5e9d8xws)  ###
 
@@ -239,7 +239,7 @@ Airbnb 在世界各地被广泛使用。我们的产品和视觉语言应该是�
 
 以 Medium 中分享草稿、写评论和记笔记为例。Medium 上的内容应该是随着时间不断的改进。我们的目的可不是为互联网设计印刷书。
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/RsdSaD5KWkAFD4ywmrsZ8hnjpBTmdsEZ)
+![](https://image.xujifa.cn/design-principles-behind-great-products/RsdSaD5KWkAFD4ywmrsZ8hnjpBTmdsEZ)
 
 ### [Firefox Design Values](https://people-mozilla.org/~madhava/FDV/) ###
 
@@ -315,7 +315,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 - 性能是客观的，但响应性是主观的
 - 最好有令用户愉悦的表现
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/XsSbzjw5ZZMEtA5wMAYbpcAd6c3G6tKP)
+![](https://image.xujifa.cn/design-principles-behind-great-products/XsSbzjw5ZZMEtA5wMAYbpcAd6c3G6tKP)
 
 ### [Salesforce](https://medium.com/salesforce-ux/defining-principles-to-drive-design-decisions-b647b68fb057#.i7e3yox8p) ###
 
@@ -335,7 +335,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 
 通过周到和优雅的工艺展示对人们的时间和精力的尊重
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/NSNHkBeK7jwjzasPcXx78et7mwkadkrK)
+![](https://image.xujifa.cn/design-principles-behind-great-products/NSNHkBeK7jwjzasPcXx78et7mwkadkrK)
 
 ### [IBM UX](http://www.ibm.com/design/language/experience/) ###
 
@@ -400,7 +400,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 
 提供支持应该有助于提高用户对产品的认知。启蒙用户成为专家。使用适合您的目标受众的简明语言。给他们提供反馈和分享他们学到的东西的机会。用户经常信任来自同行的建议，因此尽可能地促进社区学习。
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/XpB2wA8b7K4H6DirCamAnXWpzimcCWwT)
+![](https://image.xujifa.cn/design-principles-behind-great-products/XpB2wA8b7K4H6DirCamAnXWpzimcCWwT)
 
 ### [Bing](http://www.ibm.com/design/language/experience/) ###
 
@@ -415,7 +415,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 - 提供更多的内容
 - 提供无缝衔接的体验
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/7GrcxcshD8SC2dbKTQ2EwH5MhR6Zy556)
+![](https://image.xujifa.cn/design-principles-behind-great-products/7GrcxcshD8SC2dbKTQ2EwH5MhR6Zy556)
 
 ### [BBC GEL](http://www.bbc.co.uk/gel/philosophy/design-philosophy) ###
 
@@ -460,7 +460,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 
 最后的是我们把质量放在第一位。
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/jeNPAXtxFApnXyxGp7QK4jKDYPWSnAhb)
+![](https://image.xujifa.cn/design-principles-behind-great-products/jeNPAXtxFApnXyxGp7QK4jKDYPWSnAhb)
 
 ### [**Pinterest**](https://medium.com/@suprb/redesigning-pinterest-block-by-block-6040a00d80a3#.v2xgv1fl2) ###
 
@@ -491,7 +491,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 - **可逆**
   如果你不小心做了一些不能产生你想要的结果的东西，很轻松就可以纠正它。
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/256Gd6ZwcX8bGRXF6sippfipZewthGGw)
+![](https://image.xujifa.cn/design-principles-behind-great-products/256Gd6ZwcX8bGRXF6sippfipZewthGGw)
 
 ### [Lyft **Design Principles**](http://www.fueltravel.com/blog/tips-from-lyft-let-your-brand-drive-your-ux-decisions/) ###
 
@@ -502,7 +502,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 **独一无二**
 自主和愉快
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/cY8jaMY7awyJj76rDTBzmtbYZrcyQwXX)
+![](https://image.xujifa.cn/design-principles-behind-great-products/cY8jaMY7awyJj76rDTBzmtbYZrcyQwXX)
 
 ### [Foursquare](https://medium.com/@sambrown/designing-the-new-foursquare-8f8788d366f0#.fh81og5d1) ###
 
@@ -518,7 +518,7 @@ Firefox 简单且易用，在它的设计中融入了干净，直接的力量。
 
 通过简单、有趣的视觉体验参与城市的探索：将大胆的图标，或明或暗的颜色，标志作为超级英雄会徽和地图标记的组合。
 
-![](http://image.xujifa.cn/design-principles-behind-great-products/xSi2FHmyZdpGCJdxebbN2ezp6H5XC8ek)
+![](https://image.xujifa.cn/design-principles-behind-great-products/xSi2FHmyZdpGCJdxebbN2ezp6H5XC8ek)
 
 ### [**Asana’s Design Principles**](https://blog.asana.com/2013/10/design-principles/) ###
 

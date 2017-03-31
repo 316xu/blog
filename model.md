@@ -10,7 +10,7 @@ tags:
 - Android
 ---
 
-![](http://image.xujifa.cn/model/nhtrkNx2iS3Ez2zQhdwzhsSz5yPyRayP)
+![](https://image.xujifa.cn/model/nhtrkNx2iS3Ez2zQhdwzhsSz5yPyRayP)
 
 闲来无事，突发奇想，以前写 Android 工程，都是先用 AS 创建一个工程，然后开始编写代码，创建工程的过程完全不用自己操心  
 

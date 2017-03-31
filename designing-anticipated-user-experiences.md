@@ -17,7 +17,7 @@ tags:
 
 ## 如何做出不需要选择的设计 ##
 
-![](http://image.xujifa.cn/designing-anticipated-user-experiences/eayyzNZkDRXyRzdcZrQrsdiG3sYDmYiY)
+![](https://image.xujifa.cn/designing-anticipated-user-experiences/eayyzNZkDRXyRzdcZrQrsdiG3sYDmYiY)
 
 [预期设计](https://www.anticipatorydesign.com/)可能是在体验设计领域里的下一个重大飞跃。就像 Shapiro 说的那样：“[超前一步的设计](https://www.fastcodesign.com/3045039/the-next-big-thing-in-design-fewer-choices)”。这听上去有些疯狂，这又能将我们引向何处？又会对我们和技术的关系造成怎样的影响？
 
@@ -40,7 +40,7 @@ tags:
 
 预期设计是一种涉及了学习（物联网）、预测（机器学习）和预期（UX 设计）的设计理念。
 
-![](http://image.xujifa.cn/designing-anticipated-user-experiences/3DEmbnnYQA2nb37JDx6S8MBH6pFSdGct)
+![](https://image.xujifa.cn/designing-anticipated-user-experiences/3DEmbnnYQA2nb37JDx6S8MBH6pFSdGct)
 
 预期设计的构成
 

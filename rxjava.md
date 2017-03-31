@@ -49,7 +49,7 @@ Observable.concat(Observable.just(1, 2, 3), Observable.just(5, 6, 7))
 ### distinct()
 
 [doc](http://reactivex.io/documentation/operators/distinct.html)
-![distinct()](http://image.xujifa.cn/rxjava/TKwQwnTZ5DmTMHMsZNCFjiFnbz4zJFpe)
+![distinct()](https://image.xujifa.cn/rxjava/TKwQwnTZ5DmTMHMsZNCFjiFnbz4zJFpe)
 
 例子：
 ```java
@@ -73,7 +73,7 @@ Observable.just(0, 1, 1, 2, 3)
 ### filter()
 
 [doc](http://reactivex.io/documentation/operators/filter.html)
-![distinct()](http://image.xujifa.cn/rxjava/65WDET37DXrwZatB8fzSmi7AdwAkcmZf)
+![distinct()](https://image.xujifa.cn/rxjava/65WDET37DXrwZatB8fzSmi7AdwAkcmZf)
 
 例子：
 ```java
@@ -95,7 +95,7 @@ Observable.just(0, 1, 3, 4)
 
 ### buffer()
 [doc](http://reactivex.io/documentation/operators/buffer.html)
-![buffer()](http://image.xujifa.cn/rxjava/PZFBWc4wipHRscWsHrwNwiJxzNffm3tM)
+![buffer()](https://image.xujifa.cn/rxjava/PZFBWc4wipHRscWsHrwNwiJxzNffm3tM)
 
 例子：
 
@@ -121,7 +121,7 @@ observable.buffer(3, 2).subscribe(getListObserver(0));
 ### debounce()
 
 [doc](http://reactivex.io/documentation/operators/debounce.html)
-![debounce()](http://image.xujifa.cn/rxjava/bHBnpGyxh62DTBShpAbRrSStnFm55FeN)
+![debounce()](https://image.xujifa.cn/rxjava/bHBnpGyxh62DTBShpAbRrSStnFm55FeN)
 
 例子：
 ```java
@@ -167,7 +167,7 @@ Thread.sleep(10000);
 ### defer()
 
 [doc](http://reactivex.io/documentation/operators/defer.html)
-![defer](http://image.xujifa.cn/rxjava/sS2iGJcHrGeSn3KEWiPB3esXjCcXeddZ)
+![defer](https://image.xujifa.cn/rxjava/sS2iGJcHrGeSn3KEWiPB3esXjCcXeddZ)
 
 例子：
 ```java
@@ -205,7 +205,7 @@ observable.subscribe(getObserver(1));
 ### interval()
 
 [doc](http://reactivex.io/documentation/operators/interval.html)
-![interval()](http://image.xujifa.cn/rxjava/JmY2NxYJWHh6AR6yMPzMb4k85i2CHyAy)
+![interval()](https://image.xujifa.cn/rxjava/JmY2NxYJWHh6AR6yMPzMb4k85i2CHyAy)
 
 例子：
 ```java
@@ -238,7 +238,7 @@ Observable.just(1, 2, 3).subscribeWith(getDisposableObserver(1));
 ### last()
 
 [doc](http://reactivex.io/documentation/operators/last.html)
-![last()](http://image.xujifa.cn/rxjava/HiKFaFKfNwhhfZBFSps7zhwiTcMGrbCt)
+![last()](https://image.xujifa.cn/rxjava/HiKFaFKfNwhhfZBFSps7zhwiTcMGrbCt)
 
 例子：
 ```java
@@ -264,7 +264,7 @@ Observable.create((ObservableOnSubscribe<Integer>) Emitter::onComplete).last(3)
 ### map()
 
 [doc](http://reactivex.io/documentation/operators/map.html)
-![map()](http://image.xujifa.cn/rxjava/xnH5xXiFZh6weHPHSrxZc6zPzHHyhekK)
+![map()](https://image.xujifa.cn/rxjava/xnH5xXiFZh6weHPHSrxZc6zPzHHyhekK)
 
 例子：
 ```java
@@ -290,7 +290,7 @@ Observable.just(0, 1, 2, 3)
 
 ###
 [doc](http://reactivex.io/documentation/operators/merge.html)
-![merge()](http://image.xujifa.cn/rxjava/T7fbRy4bBSFyy6MFH558cnRj8WejCkRT)
+![merge()](https://image.xujifa.cn/rxjava/T7fbRy4bBSFyy6MFH558cnRj8WejCkRT)
 
 例子：
 ```java
@@ -314,7 +314,7 @@ Observable.merge(Observable.just(0, 1), Observable.just(3, 4))
 
 ###
 [doc](http://reactivex.io/documentation/operators/reduce.html)
-![reduce()](http://image.xujifa.cn/rxjava/JFRe6prRQfwfwpPzQM85sFaEkwiXjFBk)
+![reduce()](https://image.xujifa.cn/rxjava/JFRe6prRQfwfwpPzQM85sFaEkwiXjFBk)
 
 例子：
 ```java
@@ -336,7 +336,7 @@ Observable.just(1, 2, 3)
 
 ###
 [doc](http://reactivex.io/documentation/operators/replay.html)
-![replay()](http://image.xujifa.cn/rxjava/5JtxQr2Tmakj6PrCBZDrsdaDZZ7F6btY)
+![replay()](https://image.xujifa.cn/rxjava/5JtxQr2Tmakj6PrCBZDrsdaDZZ7F6btY)
 
 例子：
 ```java
@@ -370,7 +370,7 @@ publishSubject.onComplete();
 
 ### merge()
 [doc](http://reactivex.io/documentation/operators/scan.html)
-![scan()](http://image.xujifa.cn/rxjava/6WhRDXKTw4caGc3KcAEmMBJmTcFs5MjZ)
+![scan()](https://image.xujifa.cn/rxjava/6WhRDXKTw4caGc3KcAEmMBJmTcFs5MjZ)
 
 例子：
 ```java
@@ -395,7 +395,7 @@ Observable.just(0, 1, 2, 3)
 
 ### skip()
 [doc](http://reactivex.io/documentation/operators/skip.html)
-![skip()](http://image.xujifa.cn/rxjava/mBX6wFrrhAPA27TQnFAw8tx3xDWHiNrb)
+![skip()](https://image.xujifa.cn/rxjava/mBX6wFrrhAPA27TQnFAw8tx3xDWHiNrb)
 
 例子：
 ```java
@@ -417,7 +417,7 @@ Observable.just(0, 1, 2, 3)
 
 ### take()
 [doc](http://reactivex.io/documentation/operators/take.html)
-![take()](http://image.xujifa.cn/rxjava/2WGRYyde4mkbJY3ZtDHc4nXrhYzX67wc)
+![take()](https://image.xujifa.cn/rxjava/2WGRYyde4mkbJY3ZtDHc4nXrhYzX67wc)
 
 例子：
 ```java
@@ -442,7 +442,7 @@ Observable.just(0, 1, 2, 3)
 
 这几个是相关的，一起说
 [doc](http://reactivex.io/documentation/operators/sample.html)
-![sample()](http://image.xujifa.cn/rxjava/mtS2tyJ5r8cJfSxfDfNM8kJnQCkshX6y)
+![sample()](https://image.xujifa.cn/rxjava/mtS2tyJ5r8cJfSxfDfNM8kJnQCkshX6y)
 
 例子：
 ```java
@@ -492,7 +492,7 @@ throttleLast:
 
 发出最接近周期点的事件  
 在例子中，我们使用了 1000 作为 时间间隔，随手画了张图，将就着看下
-![](http://image.xujifa.cn/rxjava/RQTmQr8QXPZnY4RRxX7cF4Nn5wD332wr)
+![](https://image.xujifa.cn/rxjava/RQTmQr8QXPZnY4RRxX7cF4Nn5wD332wr)
 
 在 A 点之前没有点，B 点之前最近的一个点是 2，C 点之前的是 3，所以输出 2 和 3。
 
@@ -503,7 +503,7 @@ throttleLast:
 
 ### timer()
 [doc](http://reactivex.io/documentation/operators/timer.html)
-![timer()](http://image.xujifa.cn/rxjava/WJENya6esiwXJsMBSjNDaC7mexFks7RT)
+![timer()](https://image.xujifa.cn/rxjava/WJENya6esiwXJsMBSjNDaC7mexFks7RT)
 
 例子：
 ```java
@@ -523,7 +523,7 @@ Observable.timer(1, TimeUnit.SECONDS)
 
 ### window()
 [doc](http://reactivex.io/documentation/operators/window.html)
-![window()](http://image.xujifa.cn/rxjava/8Mi6aJsQy4DFP2F4hWpnb8CwmPZdtjZz)
+![window()](https://image.xujifa.cn/rxjava/8Mi6aJsQy4DFP2F4hWpnb8CwmPZdtjZz)
 
 例子：
 ```java
@@ -560,7 +560,7 @@ Observable.interval(1, TimeUnit.SECONDS)
 
 ### zip()
 [doc](http://reactivex.io/documentation/operators/zip.html)
-![zip()](http://image.xujifa.cn/rxjava/AR2EFEAyjsRYzFtD82d3ecPzXtzmXJTT)
+![zip()](https://image.xujifa.cn/rxjava/AR2EFEAyjsRYzFtD82d3ecPzXtzmXJTT)
 
 例子：
 ```java
@@ -593,7 +593,7 @@ Observable.zip((ObservableSource<Integer>) observer -> {
 
 ### PublishSubject
 [doc](http://reactivex.io/RxJava/javadoc/rx/subjects/PublishSubject.html)
-![PublishSubject](http://image.xujifa.cn/rxjava/DW8DaAJGThWsbhawARhmsNMtY8zGzjEh)
+![PublishSubject](https://image.xujifa.cn/rxjava/DW8DaAJGThWsbhawARhmsNMtY8zGzjEh)
 
 例子：
 ```java
@@ -622,7 +622,7 @@ publishSubject.onComplete();
 ### AsyncSubject 
 
 [doc](http://reactivex.io/RxJava/javadoc/rx/subjects/AsyncSubject.html)  
-![AsyncSubject](http://image.xujifa.cn/rxjava/2XkFPkswJd5ckEPPRe7NkxrAyKD3xcda)  
+![AsyncSubject](https://image.xujifa.cn/rxjava/2XkFPkswJd5ckEPPRe7NkxrAyKD3xcda)  
 
 例子：
 ```java
@@ -653,7 +653,7 @@ Observer2 onCompelte
 ### BehaviorObject
 
 [doc](http://reactivex.io/RxJava/javadoc/rx/subjects/BehaviorSubject.html)
-![BehaviorObject](http://image.xujifa.cn/rxjava/eeGbAdQtw3RQPtTsSN3zwBR8MzFnDQat)
+![BehaviorObject](https://image.xujifa.cn/rxjava/eeGbAdQtw3RQPtTsSN3zwBR8MzFnDQat)
 
 ```java
 BehaviorSubject<Integer> subscriber = BehaviorSubject.create();
@@ -727,7 +727,7 @@ onComplete 1487237358952
 ### Flowable
 
 [doc](http://reactivex.io/RxJava/2.x/javadoc/io/reactivex/Flowable.html)
-![Flowable](http://image.xujifa.cn/rxjava/kr4DzsxS4c7S6hzS5sNXWdFJG85p2Q5Y)
+![Flowable](https://image.xujifa.cn/rxjava/kr4DzsxS4c7S6hzS5sNXWdFJG85p2Q5Y)
 
 例子：
 
