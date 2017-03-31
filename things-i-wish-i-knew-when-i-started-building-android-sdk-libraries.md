@@ -16,7 +16,7 @@ tags:
 > * 译者：[jifaxu](https://github.com/jifaxu)
 > * 校对者：[BoilerYao](https://github.com/BoilerYao), [gaozp](https://github.com/gaozp)
 
-![](https://cdn-images-1.medium.com/max/1000/1*BfqwDsS3mt2pOslSQnFKCw.png)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/eS7wN83Z7zwHXkWrYNj37sc73SPYCjeM)
 
 一切要从安卓开发者开发自己的“超酷炫应用”开始说起，他们中的大多数会在这个过程中遇到一系列问题，而他们中的一些人，会提出可能的解决方案。。
 
@@ -39,7 +39,7 @@ tags:
 
 ### **你为什么要创建一个安卓库？** ###
 
-![](https://cdn-images-1.medium.com/max/800/1*YKokr5q6sL-Cge6AVPBsyQ.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/byEnWT7KmNmchBa3xGDGMQGTC6xX2XtP)
 
 额……
 
@@ -71,7 +71,7 @@ tags:
 
 ### 我们有了 artifact 了，然后呢？这些 artifact 应该放在哪里呢？ ###
 
-![](https://cdn-images-1.medium.com/max/600/1*09w_B5kEUXMrLH6Z786d5g.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/788neyd562ajXnXARf8WxZt8Fwn5nZTe)
 
 开玩笑……
 
@@ -210,7 +210,7 @@ public class ApiSecret {
 
 简而言之
 
-![](https://cdn-images-1.medium.com/max/800/1*iBMPbaVozZmJkkp-kisr7g.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/Zx4P3aziaPrryG2DiAKftyBdhZZaCkeP)
 
 简单。
 
@@ -269,7 +269,7 @@ public boolean isFeatureAvailable(Context context, String feature) {
 
 ### 多版本支持 ###
 
-![](https://cdn-images-1.medium.com/max/1600/1*7Lh4ChOmBQ5A9fJ0vP2e1Q.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/Y83jtyCBtG86tFei3mhSfPP3siBY32Pf)
 
 现在到底有多少种版本？
 
@@ -286,7 +286,7 @@ public boolean isMarshmallow(){
 
 ### 不要在正式版中输出日志 ###
 
-![](https://cdn-images-1.medium.com/max/1200/1*78Ghqzo3iMUnaYjNcuu1xw.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/2e8NHpZDPNmTJKdTje5hy8ZBF3p3jQJd)
 
 **就是不要这么做。**
 
@@ -305,7 +305,7 @@ debuggable = true
 
 ### 发生错误的时候让使用者知道 ###
 
-![](https://cdn-images-1.medium.com/max/600/1*71OXRYnUcGsgX-Ut5aPK6A.png)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/cDK57chtTY7hYa5xnCSAfhxBdwEkxXt7)
 
 经常有开发者不在日志里输出错误和异常信息，我遇到过很多次这种情况。这让安卓库的使用者在调试的过程中感到十分的头疼。虽然上面说了不要在发布版中输出日志，但是你得理解无论是在**发布版**还是**调试版**中错误和异常信息都需要输出。如果你真的不愿意在发布版中输出，至少在初始化的时候提供一个方法来让使用者启用日志。
 
@@ -336,7 +336,7 @@ void init(ApiSecret apisecret,boolean debuggable){
 
 ### 对网络状况差的情况进行处理 ###
 
-![](https://cdn-images-1.medium.com/max/800/1*I_Cs9YSx0ZbTVUWSwF6YCA.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/zmFYmSZxEzQbJyAdSmeXAA2Ac44R2p78)
 
 这很重要，严肃点！
 
@@ -396,7 +396,7 @@ dependencies {
 
 ### 不要阻塞启动过程 ###
 
-![](https://cdn-images-1.medium.com/max/1200/1*78Ghqzo3iMUnaYjNcuu1xw.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/teG3kC4s84tMsQnns2WGPmDMC5c7HbX5)
 
 没开玩笑
 
@@ -422,7 +422,7 @@ dependencies {
 
 ### 为每一个东西编写文档 ###
 
-![](https://cdn-images-1.medium.com/max/800/1*Qtged_3sWzcWmRstgkTGJQ.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/GzpHxWWWCt6dyncnSMTkGTYBrZAwwPYP)
 
 作为安卓库的创建者你很了解你的代码，但是使用者不会很了解，除非你让他们去阅读你的代码（而你永远也不应该这么做）。
 
@@ -436,7 +436,7 @@ dependencies {
 3. 提供一个示例应用来演示这个库的功能以及如何使用。
 4. 确定你有一个详细的修改日志。放在 `release` 记录里的特殊的版本 tag 里都比较合适。
 
-![](https://cdn-images-1.medium.com/max/800/1*7cIRxmPZLxOzoR6sMYDXJQ.jpeg)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/m6AE4bEDbA8QaMHpWDx52xS7ByBmJPse)
 
 GitHub 里 Sensey 库的 Release 部分截图
 
@@ -458,7 +458,7 @@ GitHub 里 Sensey 库的 Release 部分截图
 
 ### 最后，获取反馈 ###
 
-![](https://cdn-images-1.medium.com/max/600/1*Yqf4olqT9Xsrk_ApAk-uiA.gif)
+![](http://image.xujifa.cn/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries/ypDerbPfprYaibKD8XapaJsnMfM2E5sB)
 
 是的，你听到了！
 
