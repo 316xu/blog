@@ -16,7 +16,7 @@ tags:
 > * 译者：[jifaxu](https://github.com/jifaxu)
 > * 校对者：[gaozp](https://github.com/gaozp), [ZiXYu](https://github.com/ZiXYu)
 
-![](https://cdn-images-1.medium.com/max/800/1*ShbFj2IhKm6Cbn9qATiGug.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/ZPY2tTbZJXxYsYQ5SWTXhi6CSrhSyXKi)
 
 移动设备的资源总是有限的。有限的电量，有限的存储，有限的处理能力，有限的内存，有限的网络带宽……无论你面对的是 Android 还是 iOS，这都是真理。
 <!-- more -->
@@ -37,7 +37,7 @@ tags:
 
 让你的应用大小保持最佳变得尤其重要。**你的应用体积越小，你的用户就有更多的空间来存储他们的视频和图片**。说实话，你肯定不希望用户因为“存储空间不足”的提示删除你的应用。
 
-![](https://cdn-images-1.medium.com/max/800/1*cjMsR_IEniBq3SXQ3YtJ6g.jpeg)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/3SQP5skSwcwdJS2G8dE7SRszSjtxNNFh)
 
 如果用户的存储空间不够的话，他们会卸载你的应用。
 这些发展中国家用户使用的依然是速度有限的 2G/3G 网。所以，如果你的应用体积太大，将会需要更多的时间来下载（更可能的情况时用户根本不会去下载）。同样的，大多数用户流量有限，用户下载的每个字节都是在花钱。
@@ -52,7 +52,7 @@ tags:
 
 Android Studio 提供了一个有用的工具：[**APK Analyser**](https://developer.android.com/studio/build/apk-analyzer.html)。APK Analyser 将会拆解你的应用并让你知道 .apk 文件中的那个部分占据了大量空间。让我们看一下 Anti-Theft 在没有经过优化之前的截图。
 
-![](https://cdn-images-1.medium.com/max/1000/1*qwluezWR7KE9-raJVkAc9A.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/etdpHrESeenRyTMJcXZjXDaF2izP2bix)
 
 从 Apk Analyser 的输出来看，应用的原大小是 3.1MB。经过 Play 商店的压缩，大致是 2.5MB。
 
@@ -61,11 +61,11 @@ Android Studio 提供了一个有用的工具：[**APK Analyser**](https://devel
 - **classes.dex** —— 这是 dex 文件，包含了所有会运行在你的 DVM 或 ART 里的字节码文件。
 - **res** —— 这个文件夹包含了所有在 res 文件夹下的文件。大部分情况下它包含所有图片，图标和源文件，菜单文件和布局。  
 
-![](https://cdn-images-1.medium.com/max/1000/1*8ITi0D6JrpibvAC9iTG2rA.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/pJerm4JBn78pcfRc6iMB5pb2iiRybR45)
 
 - **resources.arsc** —— 这个文件包含了所有 value 资源。这个文件包含了你 value 目录下的所有数据。包括 strings、dimensions、styles、intergers、ids 等等。
 
-![](https://cdn-images-1.medium.com/max/1000/1*B1MMigEQSVfKIJRmujeIag.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/saaZshsjMDQcDMTsPjhYcwaDSzEmijp7)
 
 ---
 
@@ -79,7 +79,7 @@ classes.dex 包含了所有 Java 代码。当你编译你的应用时，gradle �
 
 单个的 classes.dex 文件可以容纳大约 64K 方法。如果你达到了这个限制，你必须要在你的工程中启用 [multidexing](https://developer.android.com/studio/build/multidex.html)。这将会创建另一个 classes1.dex 文件去存储剩下的方法。所以 classes.dex 文件数目由你的方法数而定。
 
-![](https://cdn-images-1.medium.com/max/1000/1*koKowwJQ0aavZ6-Sh1I6AQ.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/7EdYnBR8by5X4nF3SQspnR8kbtNG8Sx8)
 
 你可以看到现在的 “Anti-Theft Screen Lock” 包含 4392 个类和 29897 个方法。这个结果是没有经过混淆的。你有两个默认的混淆文件。
 
@@ -108,7 +108,7 @@ classes.dex 包含了所有 Java 代码。当你编译你的应用时，gradle �
 
 这是启用了 minify 之后的 APK。
 
-![](https://cdn-images-1.medium.com/max/1000/1*FPR6BZkWLBYhHs6YO9lLvA.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/aMEsinXACacyQEWs4MDDk8hZzGWbMfSZ)
 
 你可以看到在为每个模块启用了混淆之后我们的 classes.dex 大小减小了几乎 50%。同时你可以看到方法数从 29897 降到了 15168（几乎 50%）。恭喜……🎊🎉
 
@@ -148,13 +148,13 @@ defaultConfig {
 
 你可以在工程选择 drawable 和 mipmap 文件夹，右击并选择 **convert to webp**。这将会打开下面这样的配置弹框。
 
-![](https://cdn-images-1.medium.com/max/800/1*Y51gzPlk1Pcd_0s8lqcc9Q.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/cdGSJa6AtzHfXHhiQcNF2HNyjP5zAazX)
 
 点击 ok，将会将所有 png 图片转成 webp。如果 webp 图片比 png 更大，Android Studio 将会自动跳过这个文件。
 
 让我们看下最终效果：
 
-![](https://cdn-images-1.medium.com/max/1000/1*UiwJkvIhWjrNNj2DU7Z3kA.png)
+![](https://image.xujifa.cn/how-you-can-decrease-application-size-by-60-in-only-5-minutes/Pn4nSTaPSYBTRJD8NArRaPANk7KCcYxZ)
 
 喔！！！res 文件夹从 710KB 降到了 597KB。
 
